@@ -19,14 +19,14 @@ Originally created to streamline my workflow - I couldn't bear working with sing
    cd StreamerbotScriptCompiler
    ```
 
-3. **Initialize the project**
+2. **Initialize the project**
    - Open the folder in Visual Studio Code, then open a terminal and run:
    ```powershell
    .\init.ps1
    ```
    - When prompted, enter your Streamer.Bot root directory (e.g., `D:\Documents\Streamerbot`)
 
-5. **Create a new project**
+3. **Create a new project**
    ```powershell
    .\new.ps1 "MyProject"
    ```
@@ -35,7 +35,7 @@ Originally created to streamline my workflow - I couldn't bear working with sing
    
    *Note: new projects will always be created in a sub-directory called `Projects` and can only be built from that folder.*
 
-6. **Build and deploy**
+4. **Build and deploy**
    - When ready to use/test in Streamer.Bot:
    ```powershell
    .\build.ps1 MyProject
